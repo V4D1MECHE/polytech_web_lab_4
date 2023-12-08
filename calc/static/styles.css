@@ -1,0 +1,50 @@
+body{
+    font-family: montserrat; /* кабалье */
+}
+
+.key{
+    font-family: montserrat; /* кабалье */
+}
+
+.calc-container {
+    margin: 0 auto;
+    height: auto;
+    width: 350px;
+    border: 2px solid #3498db; 
+    border-radius: 15px; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between
+}
+
+.screen {
+    height: 170px;
+    margin-bottom: 10px;
+    background-color: #b700ff; 
+    color: #fff;
+    font-size: 6vh;
+    border-radius: 15px 15px 0 0; 
+    padding: 10px;
+}
+
+p {
+    text-align: right;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.digits {
+    margin-right: 10px;
+}
+
+.key {
+    height: 53px;
+    width: 53px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    font-size: 25px;
+}
